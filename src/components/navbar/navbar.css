@@ -1,0 +1,29 @@
+.nav-bar{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    padding: 8px 16px 0 16px;
+    color: #007bff;
+    
+}
+.nav-bar input{
+    background: white;
+    width: 25vw;
+    border: none;
+    border-radius: 5px;
+    padding:  5px;
+
+}
+
+.imgLogoNavbar{
+    display: flex;
+    align-items: center;
+    
+}
+.nav-barRight{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
