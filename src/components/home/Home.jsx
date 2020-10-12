@@ -61,6 +61,11 @@ export function Home() {
     );
   });
 
+  // 
+
+
+  
+
   const movieList = movieByGenre.slice(0, 12).map((item, index) => {
     return (
       <div className="col-md-3 col-sm-6" key={index}>
@@ -76,7 +81,7 @@ export function Home() {
       </div>
     );
   });
-  
+
   return (
     <div className="container">
       <div className="row mt-2">
@@ -107,9 +112,10 @@ export function Home() {
         </div>
       </div>
       <div className="row mt-3">{movieList}</div>
+      
 
       <hr className="mt-5" style={{ borderTop: "1px solid #5a606b" }}></hr>
-      
+
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { FaFacebookSquare } from "react-icons/fa";
-import { FaInstagramSquare } from "react-icons/fa";
-import { FaPinterestSquare } from "react-icons/fa";
+
+import { FaPinterestSquare, FaFacebookSquare, FaInstagramSquare } from "react-icons/fa";
+
 
 import MainLogo from "../source/mainLogo.png";
 import AppStore from '../source/appStore.png';
